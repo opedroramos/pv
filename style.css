@@ -196,17 +196,17 @@ summary{
     
     }
     p{
-        font-size: 14px;
+        font-size: 16px;
     }
     p.renov1{
         color: #fff;
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
     }
     p.renov2{
         color: #000;
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
     }
     p.p2{
         color: #fff;
@@ -266,12 +266,7 @@ summary{
     h3.parc1{
         color: #fff;
         margin: 0px;
-        font-size: 12px;
-    }
-    h3.parc2{
-        color: #000;
-        margin: 0px;
-        font-size: 12px;
+        font-size: 16px;
     }
     a.b{
         text-decoration: none;
