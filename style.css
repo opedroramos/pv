@@ -1,7 +1,186 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url(fonts/Montserrat-Bold.ttf);
 }
 body{
     background-color: #000000;
+    font-family: 'montserrat';
+}
+#container{
+    width: 60%;
+    margin: auto;
+}
+#header{
+    background: linear-gradient(90deg,#FFD700 20%,#fff);
+    background-clip: text;
+
+}
+p{
+    font-size: 18px;
+}
+p.renov1{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+p.renov2{
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+}
+p.p2{
+    color: #fff;
+}
+p.details{
+    color: #fff;
+    margin: 20px auto;
+    font-size: 16px;
+}
+h1{    
+    font-size: 30px;
+    color: #fa000000;
+    text-align: center;
+    margin: 30px;
+}
+h2{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+}
+h3{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin: 20px;
+}
+h3.h32{
+    color: #fff;
+}
+h3#ti{
+    font-size: 30px;
+    color: #fff;
+}
+h3.ti1{
+    font-size: 20px;
+    color: #000;
+}
+h3.ti3{
+    font-size: 20px;
+    color: #fff;
+}
+h3.ti4{
+    font-size: 30px;
+    color: #fff;
+}
+h3.p1{
+    font-size: 40px;
+    color: #fff;
+    margin: 0px;
+}
+h3.p2{
+    font-size: 40px;
+    color: #000;
+    margin: 0px;
+}
+h3.parc1{
+    color: #fff;
+    margin: 0px;
+    font-size: 15px;
+}
+h3.parc2{
+    color: #000;
+    margin: 0px;
+    font-size: 15px;
+}
+a.b{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FA0000;
+    padding: 20px;
+    margin: 40px auto;
+    display: block;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
+a.b1{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FA0000;
+    padding: 20px;
+    margin: 80px auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
+a.b2{
+    text-decoration: none;
+    color: #000;
+    background-color: #FFD700;
+    padding: 20px;
+    margin: 80px auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#videovendas{
+
+}
+#planos{
+    display: block;
+    margin: 100px auto;
+}
+#pitch{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#pitch1{
+    background-color: #fff;
+    padding: 20px;
+}
+#pitch2{
+    background-color: #000;
+    padding: 20px;
+    border: solid 1px #fff;
+
+}
+#preço1{
+    background-color: #FA0000;
+    padding: 20px;
+}
+#preço2{
+    background-color: #FFD700;
+    padding: 20px;
+}
+#rodape{
+    margin: 100px auto;
+}
+#duvidas{
+    background-color: #141414;
+    padding: 40px;
+    font-size: 16px;
+}
+details{
+    padding: 10px;
+}
+summary{
+    color: #FFD700;
+    font-size: 16px;
+}
+
+@media screen (max-width: 600px) {
+
 }
