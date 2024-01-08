@@ -181,6 +181,179 @@ summary{
     font-size: 16px;
 }
 
-@media screen (max-width: 600px) {
-
+@media (max-width: 1080px) {
+    body{
+        background-color: #000000;
+        font-family: 'montserrat';
+    }
+    #container{
+        width: 90%;
+        margin: auto;
+    }
+    #header{
+        background: linear-gradient(90deg,#FFD700 20%,#fff);
+        background-clip: text;
+    
+    }
+    p{
+        font-size: 14px;
+    }
+    p.renov1{
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+    }
+    p.renov2{
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+    }
+    p.p2{
+        color: #fff;
+    }
+    p.details{
+        color: #fff;
+        margin: 14px auto;
+        font-size: 16px;
+    }
+    h1{    
+        font-size: 24px;
+        color: #fa000000;
+        text-align: center;
+        margin: 24px;
+    }
+    h2{
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        margin: 24px;
+    }
+    h3{
+        font-size: 16px;
+        color: #000;
+        text-align: center;
+        margin: 16px;
+    }
+    h3.h32{
+        color: #fff;
+    }
+    h3#ti{
+        font-size: 24px;
+        color: #fff;
+    }
+    h3.ti1{
+        font-size: 16px;
+        color: #000;
+    }
+    h3.ti3{
+        font-size: 16px;
+        color: #fff;
+    }
+    h3.ti4{
+        font-size: 24px;
+        color: #fff;
+    }
+    h3.p1{
+        font-size: 30px;
+        color: #fff;
+        margin: 0px;
+    }
+    h3.p2{
+        font-size: 30px;
+        color: #000;
+        margin: 0px;
+    }
+    h3.parc1{
+        color: #fff;
+        margin: 0px;
+        font-size: 12px;
+    }
+    h3.parc2{
+        color: #000;
+        margin: 0px;
+        font-size: 12px;
+    }
+    a.b{
+        text-decoration: none;
+        color: #fff;
+        background-color: #FA0000;
+        padding: 16px;
+        margin: 30px auto;
+        display: block;
+        width: 80%;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+    a.b1{
+        text-decoration: none;
+        color: #fff;
+        background-color: #FA0000;
+        padding: 16px;
+        margin: 62px auto;
+        display: block;
+        width: 80%;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+    a.b2{
+        text-decoration: none;
+        color: #000;
+        background-color: #FFD700;
+        padding: 16px;
+        margin: 62px auto;
+        display: block;
+        width: 80%;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+    #videovendas{
+    
+    }
+    #planos{
+        display: block;
+        margin: 78px auto;
+    }
+    #pitch{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+    }
+    #pitch1{
+        background-color: #fff;
+        padding: 16px;
+    }
+    #pitch2{
+        background-color: #000;
+        padding: 16px;
+        border: solid 1px #fff;
+    
+    }
+    #preço1{
+        background-color: #FA0000;
+        padding: 16px;
+    }
+    #preço2{
+        background-color: #FFD700;
+        padding: 16px;
+    }
+    #rodape{
+        margin: 78px auto;
+    }
+    #duvidas{
+        background-color: #141414;
+        padding: 30px;
+        font-size: 14px;
+    }
+    details{
+        padding: 8px;
+    }
+    summary{
+        color: #FFD700;
+        font-size: 14px;
+    }
 }
