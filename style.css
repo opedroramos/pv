@@ -213,7 +213,7 @@ summary{
     }
     p.details{
         color: #fff;
-        margin: 14px auto;
+        margin: 16px auto;
         font-size: 16px;
     }
     h1{    
@@ -347,13 +347,13 @@ summary{
     #duvidas{
         background-color: #141414;
         padding: 30px;
-        font-size: 14px;
+        font-size: 16px;
     }
     details{
         padding: 8px;
     }
     summary{
         color: #FFD700;
-        font-size: 14px;
+        font-size: 16px;
     }
 }
