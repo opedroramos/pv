@@ -137,6 +137,15 @@ a.b2{
 #videovendas{
 
 }
+#imagem{
+    
+}
+.img1{
+    display: block;
+    margin: 100px auto;
+    border-radius: 20px;
+    max-width: 40%;
+}
 #planos{
     display: block;
     margin: 100px auto;
@@ -305,7 +314,16 @@ summary{
         font-size: 16px;
     }
     #videovendas{
+        
+    }
+    #imagem{
     
+    }
+    .img1{
+        display: block;
+        margin: 50px auto;
+        border-radius: 20px;
+        max-width: 70%;
     }
     #planos{
         display: block;
